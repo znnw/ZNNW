@@ -131,7 +131,7 @@ These are some of my favorite anime scenes. I keep a small visual corner here fo
 
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ZNNW)
 ![WeChat](https://img.shields.io/badge/WeChat-W879879Zzz-07C160?style=for-the-badge&logo=wechat&logoColor=white)
-[![Email](https://img.shields.io/badge/Email-4937%40163.com-1D6FE8?style=for-the-badge&logo=minutemailer&logoColor=white)](mailto:4937@163.com)
+[![Email](https://img.shields.io/badge/Email-4937%40163.com-1D6FE8?style=for-the-badge&logo=minutemailer&logoColor=white)](mailto:zhou4937@163.com)
 [![博客园](https://img.shields.io/badge/Blog_Garden-zhou--wlog-21759B?style=for-the-badge&logo=cnblogs&logoColor=white)](https://www.cnblogs.com/zhou-wlog)
 
 ---
