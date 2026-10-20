@@ -1,11 +1,5 @@
 <!--
-个人资料已预填：
-- 显示名：ZNNW
-- GitHub 用户名：ZNNW
-- 职业：全栈 Agent 工程师
-- 城市：广州
-- 当前项目：Dashboard 中的 Top repositories
-
+个人资料
 仍需替换：
 1. 三张广州占位图
 2. Twitter、LinkedIn、Medium 等社交账号
@@ -19,7 +13,7 @@
 个人主页本身的区域，不由 README.md 控制，需要在 GitHub 设置中完善。
 -->
 
-<h1>嘿！很高兴见到你。</h1>
+<h1>😃嘿！很高兴见到你。</h1>
 
 <p align="center">
   <img src="./assets/tech-banner.png" alt="技术栈图片" width="100%" />
@@ -30,13 +24,13 @@
 
 我专注于 Java/Spring 生态、AI Agent 应用与企业级后端系统，关注 Spring AI、LangChain、RAG、微服务和高并发场景下的工程落地。我希望把大模型能力、工程架构和真实业务连接起来，让 Agent 从演示走向可运行、可观测、可维护的生产系统。
 
-- **Agent 工程**：关注 Spring AI、LangChain、RAG、多智能体编排、Prompt Engineering 与工具调用。
-- **后端开发**：熟悉 Java、Spring Boot、Spring Cloud、Spring AI 及 Spring AI Alibaba，理解 JUC、线程池与 JVM。
-- **数据与中间件**：使用 MySQL、Redis、RabbitMQ、Elasticsearch 处理缓存、消息、检索与异步任务。
-- **全栈协作**：熟悉 Vue、HTML/CSS/JavaScript，能够完成页面开发与前后端接口联调。
-- **工程效率**：使用 Docker、Linux、Git、Maven、Apifox、JMeter，以及 Cursor、Codex 等 AI Coding 工具。
-- **数据采集**：能够使用 Scrapy 完成页面抓取、数据解析与入库。
-- **后续计划**：更多个人项目与工程实践正在整理和上传中。
+- 🧐**Agent 工程**：关注 Spring AI、LangChain、RAG、多智能体编排、Prompt Engineering 与工具调用。
+- 💼**后端开发**：熟悉 Java、Spring Boot、Spring Cloud、Spring AI 及 Spring AI Alibaba，理解 JUC、线程池与 JVM。
+- 🎓**数据与中间件**：使用 MySQL、Redis、RabbitMQ、Elasticsearch 处理缓存、消息、检索与异步任务。
+- 🌱**全栈协作**：熟悉 Vue、HTML/CSS/JavaScript，能够完成页面开发与前后端接口联调。
+- 📚**工程效率**：使用 Docker、Linux、Git、Maven、Apifox、JMeter，以及 Cursor、Codex 等 AI Coding 工具。
+- ⛵**数据采集**：能够使用 Scrapy 完成页面抓取、数据解析与入库。
+- ✈️**后续计划**：更多个人项目与工程实践正在整理和上传中。
 
 ### 我用来编程的东西
 
@@ -64,15 +58,20 @@
 ![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white)
 ![IntelliJ IDEA](https://img.shields.io/badge/IntelliJ_IDEA-000000?style=flat-square&logo=intellijidea&logoColor=white)
 
-### GitHub 数据统计
+GitHub 数据统计
 
-[![ZNNW GitHub Metrics](https://metrics.lecoq.io/ZNNW?template=classic&base=0&languages=1&languages.limit=8&languages.sections=most-used&languages.details=percentage&habits=1&habits.rounding=1&habits.threshold=1&config.timezone=Asia%2FShanghai)](https://metrics.lecoq.io/ZNNW)
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ZNNW&layout=compact&langs_count=8&theme=github_dark&hide_title=true" alt="ZNNW 使用语言统计" width="49%" />
+</p>
 
-<sub>语言统计和提交历史由 GitHub Metrics 生成，首次加载可能需要几秒钟。</sub>
+<sub>语言占比和提交活跃度由 GitHub Readme Stats 生成，首次加载可能需要几秒钟。</sub>
+
+ <img src="https://github-readme-stats.vercel.app/api?username=ZNNW&show_icons=true&theme=github_dark&hide_title=true&hide_border=true" alt="ZNNW GitHub 统计" width="100%" />
+ <sub>语言占比和 GitHub 统计由 GitHub Readme Stats 生成，首次加载可能需要几秒钟。</sub>
 
 ### 开源项目
 
-| 📦 项目 | ⭐ 明星 | 🍴 分叉 | ⚠️ 议题 | 🔀 拉取请求 |
+| 📦 项目 | ⭐ 明星 | 🍴 分叉 | 🛎 议题 | 📬 拉取请求 |
 | :--- | ---: | ---: | ---: | ---: |
 | [javaweb-engineering-lab](https://github.com/ZNNW/javaweb-engineering-lab) | [![Stars](https://img.shields.io/github/stars/ZNNW/javaweb-engineering-lab?style=flat-square&label=stars&color=blue)](https://github.com/ZNNW/javaweb-engineering-lab/stargazers) | [![Forks](https://img.shields.io/github/forks/ZNNW/javaweb-engineering-lab?style=flat-square&label=forks&color=blue)](https://github.com/ZNNW/javaweb-engineering-lab/forks) | [![Issues](https://img.shields.io/github/issues/ZNNW/javaweb-engineering-lab?style=flat-square&label=issues&color=yellow)](https://github.com/ZNNW/javaweb-engineering-lab/issues) | [![PRs](https://img.shields.io/github/issues-pr/ZNNW/javaweb-engineering-lab?style=flat-square&label=pull%20requests&color=yellow)](https://github.com/ZNNW/javaweb-engineering-lab/pulls) |
 | [java-se-application-portfolio](https://github.com/ZNNW/java-se-application-portfolio) | [![Stars](https://img.shields.io/github/stars/ZNNW/java-se-application-portfolio?style=flat-square&label=stars&color=blue)](https://github.com/ZNNW/java-se-application-portfolio/stargazers) | [![Forks](https://img.shields.io/github/forks/ZNNW/java-se-application-portfolio?style=flat-square&label=forks&color=blue)](https://github.com/ZNNW/java-se-application-portfolio/forks) | [![Issues](https://img.shields.io/github/issues/ZNNW/java-se-application-portfolio?style=flat-square&label=issues&color=yellow)](https://github.com/ZNNW/java-se-application-portfolio/issues) | [![PRs](https://img.shields.io/github/issues-pr/ZNNW/java-se-application-portfolio?style=flat-square&label=pull%20requests&color=yellow)](https://github.com/ZNNW/java-se-application-portfolio/pulls) |
@@ -86,29 +85,33 @@
 
 ### 最近在做的项目
 
-- [javaweb-engineering-lab](https://github.com/ZNNW/javaweb-engineering-lab)  
+- 📦[javaweb-engineering-lab](https://github.com/ZNNW/javaweb-engineering-lab)  
   <sub>Java Web 工程实践与应用开发记录。</sub>
-- [Frontend-learning-lab](https://github.com/ZNNW/Frontend-learning-lab)  
+- 📦[Frontend-learning-lab](https://github.com/ZNNW/Frontend-learning-lab)  
   <sub>前端基础、浏览器工程与交互实验。</sub>
-- [python-data-science-lab](https://github.com/ZNNW/python-data-science-lab)  
+- 📦[python-data-science-lab](https://github.com/ZNNW/python-data-science-lab)  
   <sub>Python 数据分析、建模与可视化实验。</sub>
 
 > 更多主要项目正在整理和上传中，完成后会补充到这里。
 
-### 去广州！
+我喜欢的动漫
 
 <p align="center">
-  <img src="https://placehold.co/1200x320/161b22/58a6ff?text=Guangzhou+1" width="32%" alt="Guangzhou photo 1" />
-  <img src="https://placehold.co/1200x320/161b22/58a6ff?text=Guangzhou+2" width="32%" alt="Guangzhou photo 2" />
-  <img src="https://placehold.co/1200x320/161b22/58a6ff?text=Guangzhou+3" width="32%" alt="Guangzhou photo 3" />
+  <img src="./assets/anime-1.jpg" width="32%" alt="动漫画面 1" />
+  <img src="./assets/anime-2.jpg" width="32%" alt="动漫画面 2" />
+  <img src="./assets/anime-3.jpg" width="32%" alt="动漫画面 3" />
 </p>
 
-广州是我目前生活和工作的城市。  
+这些是我喜欢的动漫画面，留一个小小的视觉角落给想象力和远方。
 <!-- 如需天气和日出日落信息，可以接入 API 后在这里补充。 -->
 
-### 去哪儿找我
+去哪儿找我
 
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ZNNW)
+![WeChat](https://img.shields.io/badge/WeChat-W879879Zzz-07C160?style=for-the-badge&logo=wechat&logoColor=white)
+[![Email](https://img.shields.io/badge/Email-4937%40163.com-1D6FE8?style=for-the-badge&logo=minutemailer&logoColor=white)](mailto:4937@163.com)
+[![博客园](https://img.shields.io/badge/Blog_Garden-zhou--wlog-21759B?style=for-the-badge&logo=cnblogs&logoColor=white)](https://www.cnblogs.com/zhou-wlog)
+
 
 <!-- 填写账号后取消注释：
 [![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/YOUR_HANDLE)
