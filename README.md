@@ -19,17 +19,24 @@
 个人主页本身的区域，不由 README.md 控制，需要在 GitHub 设置中完善。
 -->
 
-<h1>嘿！很高兴见到你。</h1>
+<h1>😃嘿！很高兴见到你。</h1>
 
 <p align="center">
-  <img src="./assets/tech-banner.png" alt="ZNNW 技术栈横幅" width="100%" />
+  <img src="./assets/tech-banner.png" alt="技术栈图片" width="100%" />
 </p>
 
 欢迎来到我的页面！  
 我是 **ZNNW**，一名 **全栈 Agent 工程师**，目前居住在 **广州**。
 
-- 关注方向：Agent 应用、全栈 Web 开发、云原生与自动化工具
-- 正在整理：更多个人项目与工程实践
+我专注于 Java/Spring 生态、AI Agent 应用与企业级后端系统，关注 Spring AI、LangChain、RAG、微服务和高并发场景下的工程落地。我希望把大模型能力、工程架构和真实业务连接起来，让 Agent 从演示走向可运行、可观测、可维护的生产系统。
+
+- **Agent 工程**：关注 Spring AI、LangChain、RAG、多智能体编排、Prompt Engineering 与工具调用。
+- **后端开发**：熟悉 Java、Spring Boot、Spring Cloud、Spring AI 及 Spring AI Alibaba，理解 JUC、线程池与 JVM。
+- **数据与中间件**：使用 MySQL、Redis、RabbitMQ、Elasticsearch 处理缓存、消息、检索与异步任务。
+- **全栈协作**：熟悉 Vue、HTML/CSS/JavaScript，能够完成页面开发与前后端接口联调。
+- **工程效率**：使用 Docker、Linux、Git、Maven、Apifox、JMeter，以及 Cursor、Codex 等 AI Coding 工具。
+- **数据采集**：能够使用 Scrapy 完成页面抓取、数据解析与入库。
+- **后续计划**：更多个人项目与工程实践正在整理和上传中。
 
 ### 我用来编程的东西
 
