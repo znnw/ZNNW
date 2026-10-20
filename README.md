@@ -19,7 +19,7 @@
 个人主页本身的区域，不由 README.md 控制，需要在 GitHub 设置中完善。
 -->
 
-<h1>😃嘿！很高兴见到你。</h1>
+<h1>嘿！很高兴见到你。</h1>
 
 <p align="center">
   <img src="./assets/tech-banner.png" alt="技术栈图片" width="100%" />
@@ -63,6 +63,12 @@
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 ![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white)
 ![IntelliJ IDEA](https://img.shields.io/badge/IntelliJ_IDEA-000000?style=flat-square&logo=intellijidea&logoColor=white)
+
+### GitHub 数据统计
+
+[![ZNNW GitHub Metrics](https://metrics.lecoq.io/ZNNW?template=classic&base=0&languages=1&languages.limit=8&languages.sections=most-used&languages.details=percentage&habits=1&habits.rounding=1&habits.threshold=1&config.timezone=Asia%2FShanghai)](https://metrics.lecoq.io/ZNNW)
+
+<sub>语言统计和提交历史由 GitHub Metrics 生成，首次加载可能需要几秒钟。</sub>
 
 ### 开源项目
 
