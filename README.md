@@ -11,6 +11,9 @@
   <img src="./assets/hero-typing.svg" alt="Hello, 我是 ZNNW" width="100%" />
 </p>
 
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2800&pause=900&color=58A6FF&center=true&vCenter=true&width=900&height=50&lines=Full-Stack+Agent+Engineer%3BJava+%2F+Spring+%2F+AI%3BWelcome+to+my+GitHub" alt="Full-Stack Agent Engineer · Java / Python / Spring / AI · TypeScript / JavaScript / Vue" />
+</p>
 
 <p align="center">
   <img src="./assets/tech-banner.png" alt="技术栈图片" width="100%" />
@@ -63,6 +66,13 @@ GitHub 数据统计
 
 <sub>语言占比和提交活跃度由 GitHub Readme Stats 生成，首次加载可能需要几秒钟。</sub>
 
+### 贡献蛇动画
+
+<!-- 首次运行 Generate Snake workflow 后，output 分支会生成蛇动画图片。 -->
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/znnw/ZNNW/output/github-contribution-grid-snake-dark.svg" alt="GitHub contribution snake" width="100%" />
+</p>
 
 ### 开源项目
 
