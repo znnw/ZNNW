@@ -1,16 +1,10 @@
 <!--
 个人资料
 仍需替换：
-1. 三张广州占位图
 2. Twitter、LinkedIn、Medium 等社交账号
 3. 博客、CSDN、掘金或公众号文章链接
 4. 后续上传的主要项目
 5. 将 assets/tech-banner.png 一并上传到仓库根目录
-
-技术徽章已按你提供的信息更新，请按实际使用情况增删。
-
-说明：左侧头像、姓名、简介、关注数、成就和 Pinned 仓库属于 GitHub
-个人主页本身的区域，不由 README.md 控制，需要在 GitHub 设置中完善。
 -->
 
 <p align="center">
@@ -25,7 +19,7 @@
 欢迎来到我的页面！  
 我是 **ZNNW**，一名 **全栈 Agent 工程师**，目前居住在 **广州**。
 
-我专注于 Java/Spring 生态、AI Agent 应用与企业级后端系统，关注 Spring AI、LangChain、RAG、微服务和高并发场景下的工程落地。我希望把大模型能力、工程架构和真实业务连接起来，让 Agent 从演示走向可运行、可观测、可维护的生产系统。
+我专注于 Java/Spring 生态、AI Agent 应用与企业级后端系统，使用 Spring AI、LangChain、RAG、微服务和高并发场景下的让工程落地。我希望把大模型能力、工程架构和真实业务连接起来，让 Agent 从演示走向可运行、可观测、可维护的生产系统。
 
 - 🧐**Agent 工程**：关注 Spring AI、LangChain、RAG、多智能体编排、MCP、Prompt Engineering 与工具调用。
 - 💼**后端开发**：熟悉 Java、Spring Boot、Spring Cloud、Spring AI 及 Spring AI Alibaba，理解 JUC、线程池与 JVM。
@@ -72,7 +66,7 @@ GitHub 数据统计
 
 ### 开源项目
 
-| 📦 项目 | ⭐ 明星 | 🍴 分叉 | 🛎 议题 | 📬 拉取请求 |
+| 📦 项目 | ⭐ 星星 | 🍴 分叉 | 🛎 议题 | 📬 拉取请求 |
 | :--- | ---: | ---: | ---: | ---: |
 | [javaweb-engineering-lab](https://github.com/ZNNW/javaweb-engineering-lab) | [![Stars](https://img.shields.io/github/stars/ZNNW/javaweb-engineering-lab?style=flat-square&label=stars&color=blue)](https://github.com/ZNNW/javaweb-engineering-lab/stargazers) | [![Forks](https://img.shields.io/github/forks/ZNNW/javaweb-engineering-lab?style=flat-square&label=forks&color=blue)](https://github.com/ZNNW/javaweb-engineering-lab/forks) | [![Issues](https://img.shields.io/github/issues/ZNNW/javaweb-engineering-lab?style=flat-square&label=issues&color=yellow)](https://github.com/ZNNW/javaweb-engineering-lab/issues) | [![PRs](https://img.shields.io/github/issues-pr/ZNNW/javaweb-engineering-lab?style=flat-square&label=pull%20requests&color=yellow)](https://github.com/ZNNW/javaweb-engineering-lab/pulls) |
 | [java-se-application-portfolio](https://github.com/ZNNW/java-se-application-portfolio) | [![Stars](https://img.shields.io/github/stars/ZNNW/java-se-application-portfolio?style=flat-square&label=stars&color=blue)](https://github.com/ZNNW/java-se-application-portfolio/stargazers) | [![Forks](https://img.shields.io/github/forks/ZNNW/java-se-application-portfolio?style=flat-square&label=forks&color=blue)](https://github.com/ZNNW/java-se-application-portfolio/forks) | [![Issues](https://img.shields.io/github/issues/ZNNW/java-se-application-portfolio?style=flat-square&label=issues&color=yellow)](https://github.com/ZNNW/java-se-application-portfolio/issues) | [![PRs](https://img.shields.io/github/issues-pr/ZNNW/java-se-application-portfolio?style=flat-square&label=pull%20requests&color=yellow)](https://github.com/ZNNW/java-se-application-portfolio/pulls) |
