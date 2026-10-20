@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="220" viewBox="0 0 1200 220" role="img" aria-labelledby="title desc">
+  <title id="title">风过此页，君自随心，我是 ZNNW</title>
+  <desc id="desc">An animated dark header with gradient text and a typing cursor.</desc>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="48%" stop-color="#161b22"/>
+      <stop offset="100%" stop-color="#0d1117"/>
+    </linearGradient>
+    <linearGradient id="textGradient" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#58a6ff"/>
+      <stop offset="38%" stop-color="#a371f7"/>
+      <stop offset="72%" stop-color="#f778ba"/>
+      <stop offset="100%" stop-color="#3fb950"/>
+    </linearGradient>
+    <linearGradient id="shimmer" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#58a6ff" stop-opacity="0"/>
+      <stop offset="45%" stop-color="#a371f7" stop-opacity="0.45"/>
+      <stop offset="55%" stop-color="#f778ba" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#3fb950" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#1f6feb" stop-opacity="0.32"/>
+      <stop offset="100%" stop-color="#1f6feb" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="reveal">
+      <rect id="revealRect" x="52" y="42" width="1096" height="140"/>
+    </clipPath>
+  </defs>
+
+  <style>
+    #revealRect {
+      animation: reveal 7s steps(28, end) infinite;
+    }
+    #cursor {
+      animation: blink 1s step-end infinite;
+    }
+    @keyframes reveal {
+      0% { width: 0; }
+      58% { width: 1096px; }
+      82% { width: 1096px; }
+      100% { width: 0; }
+    }
+    @keyframes blink {
+      0%, 45% { opacity: 1; }
+      50%, 100% { opacity: 0; }
+    }
+  </style>
+
+  <rect width="1200" height="220" rx="18" fill="url(#bg)"/>
+  <circle cx="120" cy="20" r="190" fill="url(#glow)"/>
+  <circle cx="1080" cy="200" r="190" fill="url(#glow)"/>
+  <rect x="1" y="1" width="1198" height="218" rx="18" fill="none" stroke="url(#textGradient)" stroke-opacity="0.55"/>
+  <rect x="0" y="0" width="1200" height="220" rx="18" fill="url(#shimmer)" opacity="0.08">
+    <animateTransform attributeName="transform" type="translate" from="-500 0" to="1200 0" dur="7s" repeatCount="indefinite"/>
+  </rect>
+
+  <g clip-path="url(#reveal)">
+    <text x="600" y="104" text-anchor="middle" fill="url(#textGradient)" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="42" font-weight="700">风过此页，君自随心，我是 ZNNW</text>
+    <text x="600" y="147" text-anchor="middle" fill="#c9d1d9" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="19" font-weight="500">欢迎来到我的 GitHub 主页</text>
+  </g>
+
+  <rect id="cursor" x="946" y="69" width="3" height="42" rx="1.5" fill="#f778ba"/>
+
+  <text x="600" y="183" text-anchor="middle" fill="#8b949e" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="14" letter-spacing="1.4">FULL-STACK AGENT ENGINEER · JAVA / SPRING / AI</text>
+</svg>
