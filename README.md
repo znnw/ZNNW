@@ -130,9 +130,10 @@ These are some of my favorite anime scenes. I keep a small visual corner here fo
 ### Find Me / 去哪儿找我
 
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ZNNW)
-![WeChat](https://img.shields.io/badge/WeChat-W879879Zzz-07C160?style=for-the-badge&logo=wechat&logoColor=white)
-[![Email](https://img.shields.io/badge/Email-zhou4937%40163.com-1D6FE8?style=for-the-badge&logo=minutemailer&logoColor=white)](mailto:zhou4937@163.com)
+![WeChat](https://img.shields.io/badge/WeChat-W879879Zzz-07C160?style=flat-square&logo=wechat&logoColor=white)
 [![博客园](https://img.shields.io/badge/Blog_Garden-zhou--wlog-21759B?style=for-the-badge&logo=cnblogs&logoColor=white)](https://www.cnblogs.com/zhou-wlog)
+[![Email](https://img.shields.io/badge/Email-zhou4937%40163.com-1D6FE8?style=flat-square&logo=minutemailer&logoColor=white)](mailto:zhou4937@163.com)
+
 
 ---
 
