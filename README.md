@@ -12,9 +12,8 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2800&pause=900&color=58A6FF&center=true&vCenter=true&width=900&height=50&lines=Full-Stack+Agent+Engineer%3BJava+%2F+Spring+%2F+AI%3BWelcome+to+my+GitHub" alt="Full-Stack Agent Engineer · Java / Python / Spring / AI · TypeScript / JavaScript / Vue" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2800&pause=900&color=58A6FF&center=true&vCenter=true&width=900&height=50&lines=Full-Stack+Agent+Engineer%3BJava+%2F+Python+%2F+Spring+%2F+AI%3BTypeScript+%2F+JavaScript+%2F+Vue" alt="Full-Stack Agent Engineer · Java / Python / Spring / AI · TypeScript / JavaScript / Vue" />
 </p>
-
 <p align="center">
   <img src="./assets/tech-banner.png" alt="技术栈图片" width="100%" />
 </p>
