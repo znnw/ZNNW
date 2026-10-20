@@ -13,7 +13,10 @@
 个人主页本身的区域，不由 README.md 控制，需要在 GitHub 设置中完善。
 -->
 
-<h1>😃嘿！很高兴见到你。</h1>
+<p align="center">
+  <img src="./assets/hero-typing.svg" alt="Hello, 我是 ZNNW" width="100%" />
+</p>
+
 
 <p align="center">
   <img src="./assets/tech-banner.png" alt="技术栈图片" width="100%" />
@@ -24,7 +27,7 @@
 
 我专注于 Java/Spring 生态、AI Agent 应用与企业级后端系统，关注 Spring AI、LangChain、RAG、微服务和高并发场景下的工程落地。我希望把大模型能力、工程架构和真实业务连接起来，让 Agent 从演示走向可运行、可观测、可维护的生产系统。
 
-- 🧐**Agent 工程**：关注 Spring AI、LangChain、RAG、多智能体编排、Prompt Engineering 与工具调用。
+- 🧐**Agent 工程**：关注 Spring AI、LangChain、RAG、多智能体编排、MCP、Prompt Engineering 与工具调用。
 - 💼**后端开发**：熟悉 Java、Spring Boot、Spring Cloud、Spring AI 及 Spring AI Alibaba，理解 JUC、线程池与 JVM。
 - 🎓**数据与中间件**：使用 MySQL、Redis、RabbitMQ、Elasticsearch 处理缓存、消息、检索与异步任务。
 - 🌱**全栈协作**：熟悉 Vue、HTML/CSS/JavaScript，能够完成页面开发与前后端接口联调。
@@ -66,8 +69,6 @@ GitHub 数据统计
 
 <sub>语言占比和提交活跃度由 GitHub Readme Stats 生成，首次加载可能需要几秒钟。</sub>
 
- <img src="https://github-readme-stats.vercel.app/api?username=ZNNW&show_icons=true&theme=github_dark&hide_title=true&hide_border=true" alt="ZNNW GitHub 统计" width="100%" />
- <sub>语言占比和 GitHub 统计由 GitHub Readme Stats 生成，首次加载可能需要几秒钟。</sub>
 
 ### 开源项目
 
@@ -94,12 +95,10 @@ GitHub 数据统计
 
 > 更多主要项目正在整理和上传中，完成后会补充到这里。
 
-我喜欢的动漫
+💕喜欢的动漫
 
 <p align="center">
-  <img src="./assets/anime-1.jpg" width="32%" alt="动漫画面 1" />
-  <img src="./assets/anime-2.jpg" width="32%" alt="动漫画面 2" />
-  <img src="./assets/anime-3.jpg" width="32%" alt="动漫画面 3" />
+  <img src="./assets/anime-1.jpg" width="70%" alt="动漫画面 1" />
 </p>
 
 这些是我喜欢的动漫画面，留一个小小的视觉角落给想象力和远方。
