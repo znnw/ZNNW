@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="220" viewBox="0 0 1200 220" role="img" aria-labelledby="title desc">
+  <title id="title">风过此页，君自随心，我是 ZNNW</title>
+  <desc id="desc">A bilingual animated header. The cursor follows the typing text, with a line of English translation underneath.</desc>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="48%" stop-color="#161b22"/>
+      <stop offset="100%" stop-color="#0d1117"/>
+    </linearGradient>
+    <linearGradient id="textGradient" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#58a6ff"/>
+      <stop offset="38%" stop-color="#a371f7"/>
+      <stop offset="72%" stop-color="#f778ba"/>
+      <stop offset="100%" stop-color="#3fb950"/>
+    </linearGradient>
+    <linearGradient id="shimmer" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#58a6ff" stop-opacity="0"/>
+      <stop offset="45%" stop-color="#a371f7" stop-opacity="0.45"/>
+      <stop offset="55%" stop-color="#f778ba" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#3fb950" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#1f6feb" stop-opacity="0.32"/>
+      <stop offset="100%" stop-color="#1f6feb" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="reveal">
+      <rect id="revealRect" x="250" y="48" width="0" height="110"/>
+    </clipPath>
+  </defs>
+
+  <style>
+    #revealRect {
+      animation: reveal 11s steps(36, end) infinite;
+    }
+    #content {
+      animation: contentCycle 11s ease-in-out infinite;
+    }
+    #translation {
+      animation: translationCycle 11s ease-in-out infinite;
+    }
+    #cursor {
+      animation: blink 0.86s step-end infinite;
+    }
+    @keyframes reveal {
+      0% { width: 0; }
+      58% { width: 700px; }
+      100% { width: 700px; }
+    }
+    @keyframes contentCycle {
+      0%, 86% { opacity: 1; }
+      92%, 100% { opacity: 0; }
+    }
+    @keyframes translationCycle {
+      0%, 46% { opacity: 0; }
+      56%, 86% { opacity: 1; }
+      92%, 100% { opacity: 0; }
+    }
+    @keyframes blink {
+      0%, 45% { opacity: 1; }
+      50%, 100% { opacity: 0; }
+    }
+  </style>
+
+  <rect width="1200" height="220" rx="18" fill="url(#bg)"/>
+  <circle cx="120" cy="20" r="190" fill="url(#glow)"/>
+  <circle cx="1080" cy="200" r="190" fill="url(#glow)"/>
+  <rect x="1" y="1" width="1198" height="218" rx="18" fill="none" stroke="url(#textGradient)" stroke-opacity="0.55"/>
+  <rect x="0" y="0" width="1200" height="220" rx="18" fill="url(#shimmer)" opacity="0.08">
+    <animateTransform attributeName="transform" type="translate" from="-500 0" to="1200 0" dur="11s" repeatCount="indefinite"/>
+  </rect>
+
+  <g id="content" clip-path="url(#reveal)">
+    <text
+      x="250"
+      y="96"
+      textLength="700"
+      lengthAdjust="spacingAndGlyphs"
+      fill="url(#textGradient)"
+      font-family="'Segoe UI', 'Microsoft YaHei', 'PingFang SC', Arial, sans-serif"
+      font-size="34"
+      font-weight="700"
+    >风过此页，君自随心 ｜ 我是 ZNNW</text>
+  </g>
+
+  <text
+    id="translation"
+    x="600"
+    y="137"
+    text-anchor="middle"
+    fill="#c9d1d9"
+    font-family="'Segoe UI', 'Microsoft YaHei', 'PingFang SC', Arial, sans-serif"
+    font-size="17"
+    font-weight="500"
+    opacity="0"
+  >The wind turns the page; follow your heart. I'm ZNNW.</text>
+
+  <g>
+    <animate
+      attributeName="opacity"
+      values="0;1;1;1;0;0"
+      keyTimes="0;0.01;0.58;0.86;0.90;1"
+      dur="11s"
+      repeatCount="indefinite"
+    />
+    <rect id="cursor" x="250" y="70" width="3" height="38" rx="1.5" fill="#f778ba">
+      <animate
+        attributeName="x"
+        values="250;950;950;250"
+        keyTimes="0;0.58;0.86;1"
+        dur="11s"
+        repeatCount="indefinite"
+      />
+    </rect>
+  </g>
+
+  <text
+    x="600"
+    y="184"
+    text-anchor="middle"
+    fill="#8b949e"
+    font-family="'Segoe UI', 'Microsoft YaHei', Arial, sans-serif"
+    font-size="13.5"
+  >FULL-STACK AGENT ENGINEER · JAVA / SPRING / AI</text>
+</svg>
