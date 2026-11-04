@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-04T11:32:42.103Z",
+  "generatedAt": "2026-11-04T11:33:03.927Z",
   "username": "ZNNW",
   "configuration": {
-    "balanceLanguage": "",
+    "balanceLanguage": "JavaScript",
     "countWeight": 0,
     "excludedLanguages": [
       "c++"
@@ -21,7 +21,10 @@
     "languageWeights": {},
     "languagesCount": 12,
     "sizeWeight": 1,
-    "targetPercentages": {}
+    "targetPercentages": {
+      "Python": 15,
+      "TypeScript": 9
+    }
   },
   "repositories": [
     {
@@ -198,28 +201,28 @@
   ],
   "displayedLanguages": [
     {
-      "name": "JavaScript",
-      "percent": 47.2402
-    },
-    {
       "name": "Java",
       "percent": 39.4903
+    },
+    {
+      "name": "JavaScript",
+      "percent": 28.5201
+    },
+    {
+      "name": "Python",
+      "percent": 15
+    },
+    {
+      "name": "TypeScript",
+      "percent": 9
     },
     {
       "name": "HTML",
       "percent": 5.0457
     },
     {
-      "name": "Python",
-      "percent": 3.7075
-    },
-    {
       "name": "CSS",
       "percent": 1.8388
-    },
-    {
-      "name": "TypeScript",
-      "percent": 1.5724
     },
     {
       "name": "PowerShell",
