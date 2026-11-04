@@ -164,8 +164,10 @@ async function collectLanguageStats(repositories, headers, excludedRepos) {
 }
 
 function createAuditRecord({
+  balanceLanguage,
   collection,
   countWeight,
+  derivedLanguages,
   displayedLanguages,
   excludedLanguages,
   excludedRepos,
@@ -173,12 +175,14 @@ function createAuditRecord({
   languageWeights,
   limit,
   sizeWeight,
+  targetPercentages,
   username,
 }) {
   return {
     generatedAt: new Date().toISOString(),
     username,
     configuration: {
+      balanceLanguage,
       countWeight,
       excludedLanguages: [...excludedLanguages],
       excludedRepositories: [...excludedRepos],
@@ -186,14 +190,71 @@ function createAuditRecord({
       languageWeights: Object.fromEntries(languageWeights),
       languagesCount: limit,
       sizeWeight,
+      targetPercentages: Object.fromEntries(targetPercentages),
     },
     repositories: collection.repositories,
     rawLanguageTotals: Object.fromEntries(collection.totals),
+    derivedLanguages: derivedLanguages.map((language) => ({
+      name: language.name,
+      percent: Number(language.percent.toFixed(4)),
+    })),
     displayedLanguages: displayedLanguages.map((language) => ({
       name: language.name,
       percent: Number(language.percent.toFixed(4)),
     })),
   };
+}
+
+function applyTargetPercentages(
+  languageRows,
+  targetPercentages,
+  balanceLanguage,
+) {
+  if (targetPercentages.size === 0) {
+    return languageRows;
+  }
+
+  const rows = languageRows.map((language) => ({ ...language }));
+  let percentageDelta = 0;
+
+  for (const [languageName, targetPercent] of targetPercentages) {
+    const normalizedName = languageName.toLowerCase();
+    let row = rows.find((language) => {
+      return language.name.toLowerCase() === normalizedName;
+    });
+
+    if (!row) {
+      row = {
+        color: LANGUAGE_COLORS[languageName] ?? "#8B949E",
+        name: languageName,
+        percent: 0,
+      };
+      rows.push(row);
+    }
+
+    percentageDelta += targetPercent - row.percent;
+    row.percent = targetPercent;
+  }
+
+  const balanceRow = rows.find((language) => {
+    return language.name.toLowerCase() === balanceLanguage.toLowerCase();
+  });
+
+  if (!balanceRow) {
+    throw new Error(
+      `BALANCE_LANGUAGE "${balanceLanguage}" is not present in the card`,
+    );
+  }
+
+  balanceRow.percent -= percentageDelta;
+
+  if (balanceRow.percent < 0) {
+    throw new Error(
+      "TARGET_PERCENTAGES require a larger decrease than the balance language allows",
+    );
+  }
+
+  return rows.sort((left, right) => right.percent - left.percent);
 }
 
 function escapeXml(value) {
@@ -292,15 +353,17 @@ export function renderLanguageSvg(
   featuredTech = ["Spring Cloud", "Spring AI", "Vue", "React", "LangChain"],
   languageWeights = new Map(),
   excludedLanguages = new Set(),
+  targetPercentages = new Map(),
+  balanceLanguage = "",
 ) {
-  const rows = buildLanguageRows(
+  const rows = applyTargetPercentages(buildLanguageRows(
     languageTotals,
     limit,
     sizeWeight,
     countWeight,
     languageWeights,
     excludedLanguages,
-  );
+  ), targetPercentages, balanceLanguage);
   const width = 495;
   const barX = 25;
   const barY = 24;
@@ -418,6 +481,30 @@ async function main() {
       .map((language) => language.trim().toLowerCase())
       .filter(Boolean),
   );
+  const targetPercentages = new Map(
+    (process.env.TARGET_PERCENTAGES || "")
+      .split(",")
+      .map((entry) => entry.trim())
+      .filter(Boolean)
+      .map((entry) => {
+        const separator = entry.lastIndexOf(":");
+        if (separator === -1) {
+          return ["", Number.NaN];
+        }
+
+        return [
+          entry.slice(0, separator).trim(),
+          Number(entry.slice(separator + 1).trim()),
+        ];
+      })
+      .filter(([language, percent]) => {
+        return language
+          && Number.isFinite(percent)
+          && percent >= 0
+          && percent <= 100;
+      }),
+  );
+  const balanceLanguage = process.env.BALANCE_LANGUAGE || "";
   const excludedRepos = new Set(
     (process.env.EXCLUDE_REPOS || "Frontend-learning-lab,js-browser-engineering-lab")
       .split(",")
@@ -436,6 +523,19 @@ async function main() {
     excludedRepos,
   );
   const languageTotals = collection.totals;
+  const derivedLanguages = buildLanguageRows(
+    languageTotals,
+    limit,
+    sizeWeight,
+    countWeight,
+    languageWeights,
+    excludedLanguages,
+  );
+  const displayedLanguages = applyTargetPercentages(
+    derivedLanguages,
+    targetPercentages,
+    balanceLanguage,
+  );
   const svg = renderLanguageSvg(
     languageTotals,
     limit,
@@ -444,18 +544,14 @@ async function main() {
     featuredTech,
     languageWeights,
     excludedLanguages,
-  );
-  const displayedLanguages = buildLanguageRows(
-    languageTotals,
-    limit,
-    sizeWeight,
-    countWeight,
-    languageWeights,
-    excludedLanguages,
+    targetPercentages,
+    balanceLanguage,
   );
   const audit = createAuditRecord({
+    balanceLanguage,
     collection,
     countWeight,
+    derivedLanguages,
     displayedLanguages,
     excludedLanguages,
     excludedRepos,
@@ -463,6 +559,7 @@ async function main() {
     languageWeights,
     limit,
     sizeWeight,
+    targetPercentages,
     username,
   });
 
