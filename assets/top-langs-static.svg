@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="495" height="284" viewBox="0 0 495 284" role="img" aria-labelledby="title description">
+  <title id="title">GitHub language statistics</title>
+  <desc id="description">Java, JavaScript, Python, TypeScript, HTML, CSS, PowerShell, Less, Shell and Lua usage percentages.</desc>
+
+  <rect x="0.5" y="0.5" width="494" height="283" rx="6" fill="#0D1117" stroke="#30363D"/>
+  <clipPath id="language-bar">
+    <rect x="25" y="24" width="445" height="10" rx="5"/>
+  </clipPath>
+  <g clip-path="url(#language-bar)">
+    <rect x="25.00" y="24" width="159.22" height="10" fill="#B07219"/>
+    <rect x="184.22" y="24" width="122.86" height="10" fill="#F1E05A"/>
+    <rect x="307.09" y="24" width="65.99" height="10" fill="#3572A5"/>
+    <rect x="373.08" y="24" width="39.87" height="10" fill="#3178C6"/>
+    <rect x="412.95" y="24" width="28.57" height="10" fill="#E34C26"/>
+    <rect x="441.52" y="24" width="14.11" height="10" fill="#563D7C"/>
+    <rect x="455.63" y="24" width="8.19" height="10" fill="#5391FE"/>
+    <rect x="463.81" y="24" width="3.52" height="10" fill="#D74F9C"/>
+    <rect x="467.33" y="24" width="1.65" height="10" fill="#89E051"/>
+    <rect x="468.98" y="24" width="1.02" height="10" fill="#51A0CF"/>
+  </g>
+
+  <g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="12">
+    <circle cx="29" cy="59" r="4" fill="#B07219"/>
+    <text x="39" y="63" fill="#C9D1D9">Java</text>
+    <text x="223" y="63" fill="#8B949E" text-anchor="end">35.78%</text>
+
+    <circle cx="29" cy="83" r="4" fill="#F1E05A"/>
+    <text x="39" y="87" fill="#C9D1D9">JavaScript</text>
+    <text x="223" y="87" fill="#8B949E" text-anchor="end">27.61%</text>
+
+    <circle cx="29" cy="107" r="4" fill="#3572A5"/>
+    <text x="39" y="111" fill="#C9D1D9">Python</text>
+    <text x="223" y="111" fill="#8B949E" text-anchor="end">14.83%</text>
+
+    <circle cx="29" cy="131" r="4" fill="#3178C6"/>
+    <text x="39" y="135" fill="#C9D1D9">TypeScript</text>
+    <text x="223" y="135" fill="#8B949E" text-anchor="end">8.96%</text>
+
+    <circle cx="29" cy="155" r="4" fill="#E34C26"/>
+    <text x="39" y="159" fill="#C9D1D9">HTML</text>
+    <text x="223" y="159" fill="#8B949E" text-anchor="end">6.42%</text>
+
+    <circle cx="251" cy="59" r="4" fill="#563D7C"/>
+    <text x="261" y="63" fill="#C9D1D9">CSS</text>
+    <text x="445" y="63" fill="#8B949E" text-anchor="end">3.17%</text>
+
+    <circle cx="251" cy="83" r="4" fill="#5391FE"/>
+    <text x="261" y="87" fill="#C9D1D9">PowerShell</text>
+    <text x="445" y="87" fill="#8B949E" text-anchor="end">1.84%</text>
+
+    <circle cx="251" cy="107" r="4" fill="#D74F9C"/>
+    <text x="261" y="111" fill="#C9D1D9">Less</text>
+    <text x="445" y="111" fill="#8B949E" text-anchor="end">0.79%</text>
+
+    <circle cx="251" cy="131" r="4" fill="#89E051"/>
+    <text x="261" y="135" fill="#C9D1D9">Shell</text>
+    <text x="445" y="135" fill="#8B949E" text-anchor="end">0.37%</text>
+
+    <circle cx="251" cy="155" r="4" fill="#51A0CF"/>
+    <text x="261" y="159" fill="#C9D1D9">Lua</text>
+    <text x="445" y="159" fill="#8B949E" text-anchor="end">0.23%</text>
+  </g>
+
+  <line x1="25" y1="184" x2="470" y2="184" stroke="#21262D"/>
+
+  <text x="25" y="208" fill="#8B949E" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="10" font-weight="600" letter-spacing="1.2">FEATURED STACK</text>
+
+  <g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="11" font-weight="600">
+    <rect x="25" y="219" width="108" height="26" rx="6" fill="#161B22" stroke="#56D364" stroke-opacity="0.7"/>
+    <text x="79" y="236" fill="#56D364" text-anchor="middle">Spring Cloud</text>
+
+    <rect x="141" y="219" width="89" height="26" rx="6" fill="#161B22" stroke="#56D364" stroke-opacity="0.7"/>
+    <text x="185.5" y="236" fill="#56D364" text-anchor="middle">Spring AI</text>
+
+    <rect x="238" y="219" width="56" height="26" rx="6" fill="#161B22" stroke="#56D364" stroke-opacity="0.7"/>
+    <text x="266" y="236" fill="#56D364" text-anchor="middle">Vue</text>
+
+    <rect x="302" y="219" width="63" height="26" rx="6" fill="#161B22" stroke="#61DAFB" stroke-opacity="0.7"/>
+    <text x="333.5" y="236" fill="#61DAFB" text-anchor="middle">React</text>
+
+    <rect x="373" y="219" width="88" height="26" rx="6" fill="#161B22" stroke="#A5D6A7" stroke-opacity="0.7"/>
+    <text x="417" y="236" fill="#A5D6A7" text-anchor="middle">LangChain</text>
+  </g>
+</svg>
