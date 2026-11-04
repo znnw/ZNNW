@@ -1,0 +1,197 @@
+{
+  "generatedAt": "2026-11-04T11:19:55.029Z",
+  "username": "ZNNW",
+  "configuration": {
+    "countWeight": 0,
+    "excludedLanguages": [
+      "c++"
+    ],
+    "excludedRepositories": [
+      "frontend-learning-lab",
+      "js-browser-engineering-lab"
+    ],
+    "featuredStack": [
+      "Spring Cloud",
+      "Spring AI",
+      "Vue",
+      "React",
+      "LangChain"
+    ],
+    "languageWeights": {},
+    "languagesCount": 12,
+    "sizeWeight": 1
+  },
+  "repositories": [
+    {
+      "fullName": "znnw/-3124004189",
+      "languages": {
+        "Python": 9315
+      },
+      "private": false
+    },
+    {
+      "fullName": "znnw/aigc-data-analysis-platform",
+      "languages": {
+        "Java": 212520,
+        "TypeScript": 89749,
+        "Less": 24810,
+        "PowerShell": 15333,
+        "JavaScript": 7784,
+        "Dockerfile": 338,
+        "Shell": 198
+      },
+      "private": false
+    },
+    {
+      "fullName": "znnw/huixue-multi-agent-platform",
+      "languages": {
+        "Java": 1597180,
+        "Shell": 2025,
+        "Lua": 1059,
+        "Dockerfile": 306
+      },
+      "private": false
+    },
+    {
+      "fullName": "znnw/java-se-application-portfolio",
+      "languages": {
+        "Java": 162627
+      },
+      "private": false
+    },
+    {
+      "fullName": "znnw/javaweb-engineering-lab",
+      "languages": {
+        "JavaScript": 2320340,
+        "Java": 177970,
+        "HTML": 51917,
+        "CSS": 19238
+      },
+      "private": false
+    },
+    {
+      "fullName": "znnw/nearfield-commerce-platform",
+      "languages": {
+        "JavaScript": 368265,
+        "Java": 103744,
+        "CSS": 85715,
+        "HTML": 70803,
+        "PowerShell": 18218,
+        "Lua": 793
+      },
+      "private": false
+    },
+    {
+      "fullName": "znnw/python-data-science-lab",
+      "languages": {
+        "Python": 171958,
+        "HTML": 165278
+      },
+      "private": false
+    },
+    {
+      "fullName": "znnw/ShiZheYunSuangProject",
+      "languages": {
+        "Python": 30345
+      },
+      "private": false
+    },
+    {
+      "fullName": "znnw/ZNNW",
+      "languages": {},
+      "private": false
+    }
+  ],
+  "rawLanguageTotals": {
+    "JavaScript": {
+      "bytes": 2696389,
+      "repositories": 3
+    },
+    "Java": {
+      "bytes": 2254041,
+      "repositories": 5
+    },
+    "CSS": {
+      "bytes": 104953,
+      "repositories": 2
+    },
+    "HTML": {
+      "bytes": 287998,
+      "repositories": 3
+    },
+    "PowerShell": {
+      "bytes": 33551,
+      "repositories": 2
+    },
+    "Lua": {
+      "bytes": 1852,
+      "repositories": 2
+    },
+    "TypeScript": {
+      "bytes": 89749,
+      "repositories": 1
+    },
+    "Less": {
+      "bytes": 24810,
+      "repositories": 1
+    },
+    "Dockerfile": {
+      "bytes": 644,
+      "repositories": 2
+    },
+    "Shell": {
+      "bytes": 2223,
+      "repositories": 2
+    },
+    "Python": {
+      "bytes": 211618,
+      "repositories": 3
+    }
+  },
+  "displayedLanguages": [
+    {
+      "name": "JavaScript",
+      "percent": 47.2402
+    },
+    {
+      "name": "Java",
+      "percent": 39.4903
+    },
+    {
+      "name": "HTML",
+      "percent": 5.0457
+    },
+    {
+      "name": "Python",
+      "percent": 3.7075
+    },
+    {
+      "name": "CSS",
+      "percent": 1.8388
+    },
+    {
+      "name": "TypeScript",
+      "percent": 1.5724
+    },
+    {
+      "name": "PowerShell",
+      "percent": 0.5878
+    },
+    {
+      "name": "Less",
+      "percent": 0.4347
+    },
+    {
+      "name": "Shell",
+      "percent": 0.0389
+    },
+    {
+      "name": "Lua",
+      "percent": 0.0324
+    },
+    {
+      "name": "Dockerfile",
+      "percent": 0.0113
+    }
+  ]
+}
