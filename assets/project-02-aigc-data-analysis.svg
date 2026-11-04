@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="340" viewBox="0 0 760 340" role="img" aria-labelledby="title description">
+  <title id="title">AIGC Data Analysis Platform repository</title>
+  <desc id="description">A Spring Boot platform that turns Excel uploads into AI-assisted reports and ECharts dashboards.</desc>
+  <rect x="0.5" y="0.5" width="759" height="339" rx="8" fill="#0D1117" stroke="#30363D"/>
+  <rect x="0" y="0" width="8" height="340" rx="4" fill="#A371F7"/>
+
+  <text x="32" y="43" fill="#8B949E" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="12" font-weight="600" letter-spacing="1.8">PROJECT REPOSITORY</text>
+  <rect x="596" y="24" width="132" height="28" rx="6" fill="#161B22" stroke="#30363D"/>
+  <text x="662" y="43" fill="#D2A8FF" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="11" font-weight="600" letter-spacing="0.8">AI ANALYTICS</text>
+
+  <circle cx="36" cy="78" r="6" fill="#A371F7"/>
+  <text x="52" y="84" fill="#E6EDF3" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="25" font-weight="600">AIGC Data Analysis Platform</text>
+  <text x="33" y="116" fill="#8B949E" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="14">AI-assisted Excel analytics and reporting</text>
+  <line x1="32" y1="139" x2="728" y2="139" stroke="#21262D"/>
+
+  <text x="33" y="174" fill="#C9D1D9" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="14">Async Spring Boot workflows turn uploaded Excel</text>
+  <text x="33" y="198" fill="#C9D1D9" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="14">datasets into AI reports and ECharts dashboards.</text>
+
+  <g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="12" font-weight="600">
+    <rect x="33" y="226" width="70" height="28" rx="6" fill="#2A1D0A" stroke="#9E6A03"/>
+    <text x="68" y="244" fill="#E3B341" text-anchor="middle">Java</text>
+    <rect x="113" y="226" width="111" height="28" rx="6" fill="#12261A" stroke="#238636"/>
+    <text x="168.5" y="244" fill="#56D364" text-anchor="middle">Spring Boot</text>
+    <rect x="234" y="226" width="97" height="28" rx="6" fill="#2A1512" stroke="#F0883E"/>
+    <text x="282.5" y="244" fill="#FFA657" text-anchor="middle">RabbitMQ</text>
+    <rect x="341" y="226" width="72" height="28" rx="6" fill="#0C2D6B" stroke="#1F6FEB"/>
+    <text x="377" y="244" fill="#79C0FF" text-anchor="middle">React</text>
+    <rect x="423" y="226" width="82" height="28" rx="6" fill="#221532" stroke="#8957E5"/>
+    <text x="464" y="244" fill="#D2A8FF" text-anchor="middle">ECharts</text>
+  </g>
+
+  <line x1="32" y1="274" x2="728" y2="274" stroke="#21262D"/>
+  <g transform="translate(32 288) scale(0.72)" fill="#8B949E">
+    <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/>
+  </g>
+  <text x="58" y="307" fill="#8B949E" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="12">Public repository</text>
+  <text x="728" y="307" fill="#A371F7" text-anchor="end" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="12" font-weight="600">VIEW REPOSITORY &#8599;</text>
+</svg>
