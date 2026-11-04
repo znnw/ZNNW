@@ -33,9 +33,12 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GH_USERNAME: ZNNW
           EXCLUDE_REPOS: Frontend-learning-lab,js-browser-engineering-lab
-          LANGS_COUNT: 8
+          LANGS_COUNT: 12
           SIZE_WEIGHT: 0.5
           COUNT_WEIGHT: 0.5
+          FEATURED_TECH: Spring Cloud,Spring AI,Vue,React,LangChain
+          LANGUAGE_WEIGHTS: JavaScript:0.6
+          EXCLUDE_LANGUAGES: "C++"
           OUTPUT: assets/top-langs.svg
         run: node .github/scripts/generate-language-stats.mjs
 
