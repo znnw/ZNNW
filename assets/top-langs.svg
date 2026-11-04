@@ -1,61 +1,69 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="495" height="260" viewBox="0 0 495 260" role="img" aria-label="Most used programming languages">
+<svg xmlns="http://www.w3.org/2000/svg" width="495" height="284" viewBox="0 0 495 284" role="img" aria-label="Most used programming languages">
   <title>GitHub language statistics</title>
-  <rect x="0.5" y="0.5" width="494" height="259" rx="6" fill="#0D1117" stroke="#30363D"/>
+  <rect x="0.5" y="0.5" width="494" height="283" rx="6" fill="#0D1117" stroke="#30363D"/>
   <clipPath id="language-bar"><rect x="25" y="24" width="445" height="10" rx="5"/></clipPath>
-  <g clip-path="url(#language-bar)"><rect x="25.00" y="24" width="130.78" height="10" fill="#F1E05A"/><rect x="155.78" y="24" width="130.65" height="10" fill="#B07219"/><rect x="286.44" y="24" width="36.90" height="10" fill="#E34C26"/><rect x="323.34" y="24" width="33.92" height="10" fill="#3572A5"/><rect x="357.26" y="24" width="21.21" height="10" fill="#563D7C"/><rect x="378.47" y="24" width="18.42" height="10" fill="#012456"/><rect x="396.89" y="24" width="17.20" height="10" fill="#89E051"/><rect x="414.09" y="24" width="17.19" height="10" fill="#51A0CF"/><rect x="431.28" y="24" width="38.72" height="10" fill="#6E7681"/></g>
+  <g clip-path="url(#language-bar)"><rect x="25.00" y="24" width="148.06" height="10" fill="#B07219"/><rect x="173.06" y="24" width="88.92" height="10" fill="#F1E05A"/><rect x="261.98" y="24" width="41.82" height="10" fill="#E34C26"/><rect x="303.80" y="24" width="38.44" height="10" fill="#3572A5"/><rect x="342.24" y="24" width="24.03" height="10" fill="#563D7C"/><rect x="366.27" y="24" width="20.88" height="10" fill="#012456"/><rect x="387.15" y="24" width="19.49" height="10" fill="#89E051"/><rect x="406.64" y="24" width="19.48" height="10" fill="#51A0CF"/><rect x="426.12" y="24" width="19.42" height="10" fill="#384D54"/><rect x="445.54" y="24" width="13.66" height="10" fill="#3178C6"/><rect x="459.21" y="24" width="10.79" height="10" fill="hsl(470 55% 52%)"/></g>
   <g>
-      <circle cx="29" cy="59" r="4" fill="#F1E05A"/>
-      <text x="39" y="63" fill="#C9D1D9" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="12">JavaScript</text>
-      <text x="223" y="63" fill="#8B949E" text-anchor="end" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="12">29.4%</text>
+      <circle cx="29" cy="59" r="4" fill="#B07219"/>
+      <text x="39" y="63" fill="#C9D1D9" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="12">Java</text>
+      <text x="223" y="63" fill="#8B949E" text-anchor="end" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="12">33.3%</text>
     </g><g>
-      <circle cx="29" cy="83" r="4" fill="#B07219"/>
-      <text x="39" y="87" fill="#C9D1D9" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="12">Java</text>
-      <text x="223" y="87" fill="#8B949E" text-anchor="end" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="12">29.4%</text>
+      <circle cx="29" cy="83" r="4" fill="#F1E05A"/>
+      <text x="39" y="87" fill="#C9D1D9" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="12">JavaScript</text>
+      <text x="223" y="87" fill="#8B949E" text-anchor="end" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="12">20.0%</text>
     </g><g>
       <circle cx="29" cy="107" r="4" fill="#E34C26"/>
       <text x="39" y="111" fill="#C9D1D9" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="12">HTML</text>
-      <text x="223" y="111" fill="#8B949E" text-anchor="end" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="12">8.3%</text>
+      <text x="223" y="111" fill="#8B949E" text-anchor="end" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="12">9.4%</text>
     </g><g>
       <circle cx="29" cy="131" r="4" fill="#3572A5"/>
       <text x="39" y="135" fill="#C9D1D9" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="12">Python</text>
-      <text x="223" y="135" fill="#8B949E" text-anchor="end" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="12">7.6%</text>
+      <text x="223" y="135" fill="#8B949E" text-anchor="end" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="12">8.6%</text>
     </g><g>
       <circle cx="29" cy="155" r="4" fill="#563D7C"/>
       <text x="39" y="159" fill="#C9D1D9" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="12">CSS</text>
-      <text x="223" y="159" fill="#8B949E" text-anchor="end" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="12">4.8%</text>
+      <text x="223" y="159" fill="#8B949E" text-anchor="end" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="12">5.4%</text>
     </g><g>
-      <circle cx="251" cy="59" r="4" fill="#012456"/>
-      <text x="261" y="63" fill="#C9D1D9" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="12">PowerShell</text>
-      <text x="445" y="63" fill="#8B949E" text-anchor="end" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="12">4.1%</text>
+      <circle cx="29" cy="179" r="4" fill="#012456"/>
+      <text x="39" y="183" fill="#C9D1D9" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="12">PowerShell</text>
+      <text x="223" y="183" fill="#8B949E" text-anchor="end" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="12">4.7%</text>
     </g><g>
-      <circle cx="251" cy="83" r="4" fill="#89E051"/>
-      <text x="261" y="87" fill="#C9D1D9" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="12">Shell</text>
-      <text x="445" y="87" fill="#8B949E" text-anchor="end" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="12">3.9%</text>
+      <circle cx="251" cy="59" r="4" fill="#89E051"/>
+      <text x="261" y="63" fill="#C9D1D9" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="12">Shell</text>
+      <text x="445" y="63" fill="#8B949E" text-anchor="end" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="12">4.4%</text>
     </g><g>
-      <circle cx="251" cy="107" r="4" fill="#51A0CF"/>
-      <text x="261" y="111" fill="#C9D1D9" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="12">Lua</text>
-      <text x="445" y="111" fill="#8B949E" text-anchor="end" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="12">3.9%</text>
+      <circle cx="251" cy="83" r="4" fill="#51A0CF"/>
+      <text x="261" y="87" fill="#C9D1D9" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="12">Lua</text>
+      <text x="445" y="87" fill="#8B949E" text-anchor="end" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="12">4.4%</text>
     </g><g>
-      <circle cx="251" cy="131" r="4" fill="#6E7681"/>
-      <text x="261" y="135" fill="#C9D1D9" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="12">Other</text>
-      <text x="445" y="135" fill="#8B949E" text-anchor="end" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="12">8.7%</text>
+      <circle cx="251" cy="107" r="4" fill="#384D54"/>
+      <text x="261" y="111" fill="#C9D1D9" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="12">Dockerfile</text>
+      <text x="445" y="111" fill="#8B949E" text-anchor="end" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="12">4.4%</text>
+    </g><g>
+      <circle cx="251" cy="131" r="4" fill="#3178C6"/>
+      <text x="261" y="135" fill="#C9D1D9" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="12">TypeScript</text>
+      <text x="445" y="135" fill="#8B949E" text-anchor="end" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="12">3.1%</text>
+    </g><g>
+      <circle cx="251" cy="155" r="4" fill="hsl(470 55% 52%)"/>
+      <text x="261" y="159" fill="#C9D1D9" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="12">Less</text>
+      <text x="445" y="159" fill="#8B949E" text-anchor="end" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="12">2.4%</text>
     </g>
-  <line x1="25" y1="183" x2="470" y2="183" stroke="#21262D"/>
-  <text x="25" y="207" fill="#8B949E" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="10" font-weight="600" letter-spacing="1.2">FEATURED STACK</text>
+  <line x1="25" y1="207" x2="470" y2="207" stroke="#21262D"/>
+  <text x="25" y="231" fill="#8B949E" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="10" font-weight="600" letter-spacing="1.2">FEATURED STACK</text>
   <g>
-      <rect x="25.00" y="218" width="108" height="26" rx="6" fill="#161B22" stroke="#56D364" stroke-opacity="0.7"/>
-      <text x="79.00" y="235" fill="#56D364" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="11" font-weight="600">Spring Cloud</text>
+      <rect x="25.00" y="242" width="108" height="26" rx="6" fill="#161B22" stroke="#56D364" stroke-opacity="0.7"/>
+      <text x="79.00" y="259" fill="#56D364" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="11" font-weight="600">Spring Cloud</text>
     </g><g>
-      <rect x="141.00" y="218" width="87" height="26" rx="6" fill="#161B22" stroke="#56D364" stroke-opacity="0.7"/>
-      <text x="184.50" y="235" fill="#56D364" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="11" font-weight="600">Spring AI</text>
+      <rect x="141.00" y="242" width="87" height="26" rx="6" fill="#161B22" stroke="#56D364" stroke-opacity="0.7"/>
+      <text x="184.50" y="259" fill="#56D364" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="11" font-weight="600">Spring AI</text>
     </g><g>
-      <rect x="236.00" y="218" width="56" height="26" rx="6" fill="#161B22" stroke="#56D364" stroke-opacity="0.7"/>
-      <text x="264.00" y="235" fill="#56D364" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="11" font-weight="600">Vue</text>
+      <rect x="236.00" y="242" width="56" height="26" rx="6" fill="#161B22" stroke="#56D364" stroke-opacity="0.7"/>
+      <text x="264.00" y="259" fill="#56D364" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="11" font-weight="600">Vue</text>
     </g><g>
-      <rect x="300.00" y="218" width="59" height="26" rx="6" fill="#161B22" stroke="#61DAFB" stroke-opacity="0.7"/>
-      <text x="329.50" y="235" fill="#61DAFB" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="11" font-weight="600">React</text>
+      <rect x="300.00" y="242" width="59" height="26" rx="6" fill="#161B22" stroke="#61DAFB" stroke-opacity="0.7"/>
+      <text x="329.50" y="259" fill="#61DAFB" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="11" font-weight="600">React</text>
     </g><g>
-      <rect x="367.00" y="218" width="87" height="26" rx="6" fill="#161B22" stroke="#A5D6A7" stroke-opacity="0.7"/>
-      <text x="410.50" y="235" fill="#A5D6A7" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="11" font-weight="600">LangChain</text>
+      <rect x="367.00" y="242" width="87" height="26" rx="6" fill="#161B22" stroke="#A5D6A7" stroke-opacity="0.7"/>
+      <text x="410.50" y="259" fill="#A5D6A7" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="11" font-weight="600">LangChain</text>
     </g>
 </svg>
