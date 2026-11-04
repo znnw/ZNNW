@@ -1,7 +1,8 @@
 {
-  "generatedAt": "2026-11-04T11:22:48.481Z",
+  "generatedAt": "2026-11-04T11:32:42.103Z",
   "username": "ZNNW",
   "configuration": {
+    "balanceLanguage": "",
     "countWeight": 0,
     "excludedLanguages": [
       "c++"
@@ -19,7 +20,8 @@
     ],
     "languageWeights": {},
     "languagesCount": 12,
-    "sizeWeight": 1
+    "sizeWeight": 1,
+    "targetPercentages": {}
   },
   "repositories": [
     {
@@ -148,6 +150,52 @@
       "repositories": 3
     }
   },
+  "derivedLanguages": [
+    {
+      "name": "JavaScript",
+      "percent": 47.2402
+    },
+    {
+      "name": "Java",
+      "percent": 39.4903
+    },
+    {
+      "name": "HTML",
+      "percent": 5.0457
+    },
+    {
+      "name": "Python",
+      "percent": 3.7075
+    },
+    {
+      "name": "CSS",
+      "percent": 1.8388
+    },
+    {
+      "name": "TypeScript",
+      "percent": 1.5724
+    },
+    {
+      "name": "PowerShell",
+      "percent": 0.5878
+    },
+    {
+      "name": "Less",
+      "percent": 0.4347
+    },
+    {
+      "name": "Shell",
+      "percent": 0.0389
+    },
+    {
+      "name": "Lua",
+      "percent": 0.0324
+    },
+    {
+      "name": "Dockerfile",
+      "percent": 0.0113
+    }
+  ],
   "displayedLanguages": [
     {
       "name": "JavaScript",
