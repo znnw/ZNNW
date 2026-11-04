@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="495" height="180" viewBox="0 0 495 180" role="img" aria-label="Most used programming languages">
+<svg xmlns="http://www.w3.org/2000/svg" width="495" height="260" viewBox="0 0 495 260" role="img" aria-label="Most used programming languages">
   <title>GitHub language statistics</title>
-  <rect x="0.5" y="0.5" width="494" height="179" rx="6" fill="#0D1117" stroke="#30363D"/>
+  <rect x="0.5" y="0.5" width="494" height="259" rx="6" fill="#0D1117" stroke="#30363D"/>
   <clipPath id="language-bar"><rect x="25" y="24" width="445" height="10" rx="5"/></clipPath>
   <g clip-path="url(#language-bar)"><rect x="25.00" y="24" width="130.78" height="10" fill="#F1E05A"/><rect x="155.78" y="24" width="130.65" height="10" fill="#B07219"/><rect x="286.44" y="24" width="36.90" height="10" fill="#E34C26"/><rect x="323.34" y="24" width="33.92" height="10" fill="#3572A5"/><rect x="357.26" y="24" width="21.21" height="10" fill="#563D7C"/><rect x="378.47" y="24" width="18.42" height="10" fill="#012456"/><rect x="396.89" y="24" width="17.20" height="10" fill="#89E051"/><rect x="414.09" y="24" width="17.19" height="10" fill="#51A0CF"/><rect x="431.28" y="24" width="38.72" height="10" fill="#6E7681"/></g>
   <g>
@@ -39,5 +39,23 @@
       <circle cx="251" cy="131" r="4" fill="#6E7681"/>
       <text x="261" y="135" fill="#C9D1D9" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="12">Other</text>
       <text x="445" y="135" fill="#8B949E" text-anchor="end" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="12">8.7%</text>
+    </g>
+  <line x1="25" y1="183" x2="470" y2="183" stroke="#21262D"/>
+  <text x="25" y="207" fill="#8B949E" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="10" font-weight="600" letter-spacing="1.2">FEATURED STACK</text>
+  <g>
+      <rect x="25.00" y="218" width="108" height="26" rx="6" fill="#161B22" stroke="#56D364" stroke-opacity="0.7"/>
+      <text x="79.00" y="235" fill="#56D364" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="11" font-weight="600">Spring Cloud</text>
+    </g><g>
+      <rect x="141.00" y="218" width="87" height="26" rx="6" fill="#161B22" stroke="#56D364" stroke-opacity="0.7"/>
+      <text x="184.50" y="235" fill="#56D364" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="11" font-weight="600">Spring AI</text>
+    </g><g>
+      <rect x="236.00" y="218" width="56" height="26" rx="6" fill="#161B22" stroke="#56D364" stroke-opacity="0.7"/>
+      <text x="264.00" y="235" fill="#56D364" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="11" font-weight="600">Vue</text>
+    </g><g>
+      <rect x="300.00" y="218" width="59" height="26" rx="6" fill="#161B22" stroke="#61DAFB" stroke-opacity="0.7"/>
+      <text x="329.50" y="235" fill="#61DAFB" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="11" font-weight="600">React</text>
+    </g><g>
+      <rect x="367.00" y="218" width="87" height="26" rx="6" fill="#161B22" stroke="#A5D6A7" stroke-opacity="0.7"/>
+      <text x="410.50" y="235" fill="#A5D6A7" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="11" font-weight="600">LangChain</text>
     </g>
 </svg>
