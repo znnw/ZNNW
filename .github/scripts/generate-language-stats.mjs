@@ -121,6 +121,7 @@ async function getPublicRepositories(username, headers) {
 
 async function collectLanguageStats(repositories, headers, excludedRepos) {
   const totals = new Map();
+  const collectedRepositories = [];
   const includedRepositories = repositories.filter((repository) => {
     return !repository.fork
       && !excludedRepos.has(repository.name.toLowerCase())
@@ -130,21 +131,69 @@ async function collectLanguageStats(repositories, headers, excludedRepos) {
   for (let offset = 0; offset < includedRepositories.length; offset += 6) {
     const batch = includedRepositories.slice(offset, offset + 6);
 
-    await Promise.all(batch.map(async (repository) => {
+    const collected = await Promise.all(batch.map(async (repository) => {
       const url = `${API_ROOT}/repos/${repository.full_name}/languages`;
       const languages = await requestJson(url, headers);
 
-      for (const [language, bytes] of Object.entries(languages)) {
+      return {
+        fullName: repository.full_name,
+        languages,
+        private: repository.private,
+      };
+    }));
+
+    for (const repository of collected) {
+      collectedRepositories.push(repository);
+
+      for (const [language, bytes] of Object.entries(repository.languages)) {
         const current = totals.get(language) ?? { bytes: 0, repositories: 0 };
         totals.set(language, {
           bytes: current.bytes + bytes,
           repositories: current.repositories + 1,
         });
       }
-    }));
+    }
   }
 
-  return totals;
+  return {
+    repositories: collectedRepositories.sort((left, right) => {
+      return left.fullName.localeCompare(right.fullName);
+    }),
+    totals,
+  };
+}
+
+function createAuditRecord({
+  collection,
+  countWeight,
+  displayedLanguages,
+  excludedLanguages,
+  excludedRepos,
+  featuredTech,
+  languageWeights,
+  limit,
+  sizeWeight,
+  username,
+}) {
+  return {
+    generatedAt: new Date().toISOString(),
+    username,
+    configuration: {
+      countWeight,
+      excludedLanguages: [...excludedLanguages],
+      excludedRepositories: [...excludedRepos],
+      featuredStack: featuredTech,
+      languageWeights: Object.fromEntries(languageWeights),
+      languagesCount: limit,
+      sizeWeight,
+    },
+    repositories: collection.repositories,
+    rawLanguageTotals: Object.fromEntries(collection.totals),
+    displayedLanguages: displayedLanguages.map((language) => ({
+      name: language.name,
+      percent: Number(language.percent.toFixed(4)),
+    })),
+  };
 }
 
 function escapeXml(value) {
@@ -175,7 +224,7 @@ function normalizeWeights(sizeWeight, countWeight) {
   };
 }
 
-function buildLanguageRows(
+export function buildLanguageRows(
   languageTotals,
   limit,
   sizeWeight,
@@ -238,8 +287,8 @@ function buildLanguageRows(
 export function renderLanguageSvg(
   languageTotals,
   limit = MAX_LANGUAGES,
-  sizeWeight = 0.5,
-  countWeight = 0.5,
+  sizeWeight = 1,
+  countWeight = 0,
   featuredTech = ["Spring Cloud", "Spring AI", "Vue", "React", "LangChain"],
   languageWeights = new Map(),
   excludedLanguages = new Set(),
@@ -292,9 +341,7 @@ export function renderLanguageSvg(
     const rowIndex = index % rowsPerColumn;
     const x = barX + column * columnWidth;
     const y = legendStartY + rowIndex * rowHeight;
-    const percent = row.percent >= 1
-      ? row.percent.toFixed(1)
-      : row.percent.toFixed(2);
+    const percent = row.percent.toFixed(2);
 
     return `<g>
       <circle cx="${x + 4}" cy="${y - 4}" r="4" fill="${row.color}"/>
@@ -334,9 +381,10 @@ async function main() {
   const username = process.env.GH_USERNAME || "ZNNW";
   const token = process.env.GITHUB_TOKEN;
   const output = process.env.OUTPUT || DEFAULT_OUTPUT;
+  const auditOutput = process.env.AUDIT_OUTPUT || "assets/language-stats.json";
   const limit = Number(process.env.LANGS_COUNT || MAX_LANGUAGES);
-  const sizeWeight = Number(process.env.SIZE_WEIGHT || 0.5);
-  const countWeight = Number(process.env.COUNT_WEIGHT || 0.5);
+  const sizeWeight = Number(process.env.SIZE_WEIGHT || 1);
+  const countWeight = Number(process.env.COUNT_WEIGHT || 0);
   const featuredTech = (
     process.env.FEATURED_TECH
       || "Spring Cloud,Spring AI,Vue,React,LangChain"
@@ -382,11 +430,12 @@ async function main() {
   const repositories = await getPublicRepositories(username, headers);
   console.log(`Found ${repositories.length} public repositories.`);
 
-  const languageTotals = await collectLanguageStats(
+  const collection = await collectLanguageStats(
     repositories,
     headers,
     excludedRepos,
   );
+  const languageTotals = collection.totals;
   const svg = renderLanguageSvg(
     languageTotals,
     limit,
@@ -396,10 +445,38 @@ async function main() {
     languageWeights,
     excludedLanguages,
   );
+  const displayedLanguages = buildLanguageRows(
+    languageTotals,
+    limit,
+    sizeWeight,
+    countWeight,
+    languageWeights,
+    excludedLanguages,
+  );
+  const audit = createAuditRecord({
+    collection,
+    countWeight,
+    displayedLanguages,
+    excludedLanguages,
+    excludedRepos,
+    featuredTech,
+    languageWeights,
+    limit,
+    sizeWeight,
+    username,
+  });
 
   await mkdir(dirname(output), { recursive: true });
+  await mkdir(dirname(auditOutput), { recursive: true });
   await writeFile(output, svg, "utf8");
+  await writeFile(auditOutput, `${JSON.stringify(audit, null, 2)}\n`, "utf8");
   console.log(`Wrote ${output}.`);
+  console.log(`Wrote ${auditOutput}.`);
+  console.log(
+    `Displayed languages: ${displayedLanguages
+      .map((language) => `${language.name} ${language.percent.toFixed(1)}%`)
+      .join(", ")}`,
+  );
 }
 
 if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
