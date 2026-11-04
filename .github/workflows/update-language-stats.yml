@@ -38,6 +38,8 @@ jobs:
           COUNT_WEIGHT: 0
           FEATURED_TECH: Spring Cloud,Spring AI,Vue,React,LangChain
           EXCLUDE_LANGUAGES: "C++"
+          TARGET_PERCENTAGES: "Python:15,TypeScript:9"
+          BALANCE_LANGUAGE: JavaScript
           OUTPUT: assets/top-langs.svg
           AUDIT_OUTPUT: assets/language-stats.json
         run: node .github/scripts/generate-language-stats.mjs
