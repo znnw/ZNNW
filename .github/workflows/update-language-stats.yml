@@ -34,17 +34,17 @@ jobs:
           GH_USERNAME: ZNNW
           EXCLUDE_REPOS: Frontend-learning-lab,js-browser-engineering-lab
           LANGS_COUNT: 12
-          SIZE_WEIGHT: 0.5
-          COUNT_WEIGHT: 0.5
+          SIZE_WEIGHT: 1
+          COUNT_WEIGHT: 0
           FEATURED_TECH: Spring Cloud,Spring AI,Vue,React,LangChain
-          LANGUAGE_WEIGHTS: JavaScript:0.6
           EXCLUDE_LANGUAGES: "C++"
           OUTPUT: assets/top-langs.svg
+          AUDIT_OUTPUT: assets/language-stats.json
         run: node .github/scripts/generate-language-stats.mjs
 
       - name: Commit updated statistics
         run: |
-          git add -- assets/top-langs.svg
+          git add -- assets/top-langs.svg assets/language-stats.json
           if git diff --cached --quiet; then
             exit 0
           fi
