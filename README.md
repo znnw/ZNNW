@@ -123,10 +123,11 @@ I work across the Java/Spring ecosystem, AI Agent applications, and enterprise b
         <img src="https://img.shields.io/badge/MCP-6E40C9?style=flat-square" />
       </p>
       <p><code>Client → Gateway → Agent Router → RAG / Tools / Memory</code></p>
+      <p><a href="https://github.com/ZNNW/huixue-multi-agent-platform"><strong>该项目仓库 Open Repository on GitHub ↗</strong></a></p>
     </td>
     <td width="47%" valign="middle">
       <a href="https://github.com/ZNNW/huixue-multi-agent-platform">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=ZNNW&repo=huixue-multi-agent-platform&theme=github_dark&hide_border=true&border_radius=12" alt="HuiXue Multi-Agent Platform" width="100%" />
+        <img src="./assets/project-01-huixue.svg" alt="HuiXue Multi-Agent Platform" width="100%" />
       </a>
     </td>
   </tr>
@@ -138,7 +139,7 @@ I work across the Java/Spring ecosystem, AI Agent applications, and enterprise b
   <tr>
     <td width="47%" valign="middle">
       <a href="https://github.com/ZNNW/aigc-data-analysis-platform">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=ZNNW&repo=aigc-data-analysis-platform&theme=github_dark&hide_border=true&border_radius=12" alt="AIGC Data Analysis Platform" width="100%" />
+        <img src="./assets/project-02-aigc-data-analysis.svg" alt="AIGC Data Analysis Platform" width="100%" />
       </a>
     </td>
     <td width="53%" valign="middle">
@@ -154,6 +155,7 @@ I work across the Java/Spring ecosystem, AI Agent applications, and enterprise b
         <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" />
       </p>
       <p><code>Excel Upload → Async Task → AI Analysis → ECharts Report</code></p>
+      <p><a href="https://github.com/ZNNW/aigc-data-analysis-platform"><strong>该项目仓库 Open Repository on GitHub ↗</strong></a></p>
     </td>
   </tr>
 </table>
@@ -176,14 +178,16 @@ I work across the Java/Spring ecosystem, AI Agent applications, and enterprise b
         <img src="https://img.shields.io/badge/Vue.js-4FC08D?style=flat-square&logo=vuedotjs&logoColor=white" />
       </p>
       <p><code>Vue Client → Spring Boot API → Redis / MySQL → Deals / Reviews / Feed</code></p>
+      <p><a href="https://github.com/ZNNW/nearfield-commerce-platform"><strong>该项目仓库 Open Repository on GitHub ↗</strong></a></p>
     </td>
     <td width="47%" valign="middle">
       <a href="https://github.com/ZNNW/nearfield-commerce-platform">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=ZNNW&repo=nearfield-commerce-platform&theme=github_dark&hide_border=true&border_radius=12" alt="Nearfield Commerce Platform" width="100%" />
+        <img src="./assets/project-03-nearfield-commerce.svg" alt="Nearfield Commerce Platform" width="100%" />
       </a>
     </td>
   </tr>
 </table>
+
 
 > 更多大型项目正在整理和上传中。 / More major projects are being organized and uploaded.
 
